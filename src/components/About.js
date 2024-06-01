@@ -19,11 +19,11 @@ const About = () => {
 
         <div>
           <Tilt>
-               {/* <Lottie 
+              <Lottie 
               className="illustration" 
               animationData={Coder} 
               loop={true} 
-            /> */}
+            /> 
           </Tilt>
         </div>
 

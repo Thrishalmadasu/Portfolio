@@ -11,9 +11,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      {/* <Lottie className="bg" animationData={nightsky} loop={true} />
+      <Lottie className="bg" animationData={nightsky} loop={true} />
       <Lottie className="bgtwo" animationData={nightsky} loop={true} />
-      <Lottie className="bgtemp" animationData={nightsky} loop={true} /> */}
+      <Lottie className="bgtemp" animationData={nightsky} loop={true} /> 
       <Router>
         <Nav />
         <Routes>

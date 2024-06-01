@@ -16,11 +16,11 @@ const Home = () => {
           <Typed/>
         </div>
 
-        {/* <Lottie 
+        <Lottie 
           className="illustration" 
           animationData={SpaceBoy} 
           loop={true} 
-        />    */}
+        />   
 
       </div>
 

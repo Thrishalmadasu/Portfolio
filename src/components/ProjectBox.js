@@ -5,6 +5,9 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
+    ImageEditorDesc : "Java Image Editor: Empowers basic image editing tasks through Java's BufferedImage and ImageIO classes. Allows easy adjustment of brightness, rotation, and inversion via console input.",
+
+    WebScraperDesc : "Dynamic Python web scraper extracts product prices from major e-commerce platforms—Flipkart, Snapdeal, and Amazon. Enables seamless comparison, empowering users to discover the most cost-effective options effortlessly.",
   }
 
   let show ='';
@@ -14,7 +17,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     
   return (
     <div className='projectBox'> 
-
+        <img className='projectPhoto' src={projectPhoto} alt='projectPhoto' />
         <div>
             <br />
             <h3>{projectName}</h3>

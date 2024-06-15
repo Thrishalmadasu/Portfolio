@@ -9,11 +9,14 @@ import useScroll from './useScroll';
 const Nav = () => {
   const scrolled = useScroll();
   return (
-    <nav className={`${scrolled ? 'container-color' : ''}`}>
+    <nav className={`NavContainer ${scrolled ? 'container-color' : ''}`}>
+       <div className="logo">
+         <h2><b>Thrishal.</b></h2>
+       </div>
         <ul className='NavbarLinks'>
             <li><Link to="/"><AiOutlineHome/> Home</Link></li>
             <li><Link to="/About"><BsPerson/> About</Link></li>
-            <li><Link to="/Projects"><BsCodeSlash/> Project</Link></li>
+            <li><Link to="/Projects"><BsCodeSlash/> Projects</Link></li>
             {/* <li><Link to="/Resume"><CgFileDocument/> Resume</Link></li> */}
         </ul>
     </nav> 
